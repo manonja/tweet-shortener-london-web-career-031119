@@ -15,7 +15,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  tweet_to_a = tweet.split(" ")
+  tweet_to_a = tweet.split("")
   short_tweet = []
   tweet_to_a.collect do |word|
     dictionary.each do |key, value| 
