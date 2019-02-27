@@ -12,6 +12,7 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
+  dictionaru
 end
 
 def word_substituter(tweet)
