@@ -23,7 +23,7 @@ def word_substituter(tweet)
       word = value 
       end
     end
-    short_tweet << word
+    short_tweet.push(word)
   end   
   short_tweet.join(" ")
 end
