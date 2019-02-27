@@ -20,7 +20,7 @@ def word_substituter(tweet)
   short_tweet = []
   tweet.split.collect do |word|
     dictionary.each do |key, value| 
-      if word == key 
+      if word.downcase == key 
       word = value 
       end
     end
